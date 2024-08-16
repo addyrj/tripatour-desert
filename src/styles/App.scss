@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+.ant-table-wrapper{
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+.ql-editor {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ql-font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
